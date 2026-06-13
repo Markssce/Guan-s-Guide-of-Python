@@ -16,6 +16,7 @@
     # print("The greatest common divisor is {}".format(n))
 
 def gcd_recursion(m, n):
+    # Euclidean algorithm
     if (m%n == 0):
         return n
     else:
