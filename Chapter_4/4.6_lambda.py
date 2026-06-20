@@ -1,5 +1,4 @@
 # Calculate the mean and the standard error of a given list with lambda fuction.
-
 import math
 
 aver = lambda L: sum(L)/len(L)

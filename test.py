@@ -1,6 +1,4 @@
-from PIL import Image 
-im = Image.open("/Users/mercury/Documents/Python/Chapter_6/pic.png") 
-im.show()
-im = im.convert("L")
-im.show()
-im.save(r"/Users/mercury/Documents/Python/Chapter_6/pic-Tulips.png")
+import matplotlib.pyplot as plt
+fig = plt.figure()
+plt.plot([0, 5], c = 'b', marker = "o") #此行有错误，已经改正
+plt.show()

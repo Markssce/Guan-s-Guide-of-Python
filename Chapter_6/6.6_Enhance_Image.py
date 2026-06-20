@@ -15,4 +15,3 @@ for i in range(w):
             count1 += 1
 
 print(count1/(w*h)*100)
-
